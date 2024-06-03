@@ -1,6 +1,6 @@
 .container {
   display: flex;
-  background-color: rgba(238, 238, 238, 0.911);
+  background-color: var(--clr-bg);
   max-width: 40rem;
   width: 100%;
   flex-direction: column;
@@ -33,7 +33,6 @@
   max-width: 20em;
   width: 100%;
   flex-shrink: 0.7;
-  flex-grow: 2;
   aspect-ratio: 1;
   position: relative;
   overflow: hidden;
@@ -44,11 +43,12 @@
   list-style: none;
   display: flex;
   flex-direction: column;
-  /* background-color: rgb(247, 247, 247); */
+  /* background-color: rgb(139, 139, 139); */
   width: 100%;
   flex-grow: 1;
   padding: 0.5em;
-  /* box-shadow: 0px 3px 10px -5px rgba(7, 7, 7, 0.267); */
+  /* box-shadow: 8px 8px 8px -5px rgb(7, 7, 7) inset,
+    -8px -8px 8px -5px rgb(7, 7, 7) inset; */
   text-align: right;
   overflow: hidden;
   max-width: 20em;
@@ -113,7 +113,7 @@
   max-width: 30rem;
   display: flex;
   justify-content: center;
-  margin-top: 1rem;
+  margin-top: 2em;
 
   @media (max-width: 500px) {
     display: none;
@@ -138,18 +138,19 @@
 
   @media (max-width: 500px) {
     max-width: 20em;
+    margin-top: 1rem;
   }
 }
 
 .progressWrapper {
   max-width: 24rem;
   width: 100%;
-  background-color: rgb(207, 207, 207);
   position: relative;
   height: 0.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: var(--clr-lgt);
 }
 
 .progressWrapper p {
@@ -178,10 +179,10 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgb(56, 56, 56);
   top: 0;
   z-index: 9;
   pointer-events: none;
+  background: var(--clr-lgt);
 }
 
 .progressBar {
@@ -190,8 +191,8 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgb(196, 196, 196);
   cursor: pointer;
+  background-color: var(--clr-drk);
 }
 
 .progressBar::-webkit-slider-thumb {
@@ -199,13 +200,13 @@
   appearance: none;
   width: 12px;
   height: 16px;
-  background: rgb(56, 56, 56);
+  background: var(--clr-lgt);
 }
 
 .progressBar::-moz-range-thumb {
   width: 12px;
   height: 16px;
-  background: rgb(56, 56, 56);
+  background: var(--clr-lgt);
 }
 
 .btnContainer {
@@ -232,11 +233,8 @@
 
 .soundGroup {
   position: relative;
-  /* margin-left: -0.5rem; */
   height: 8px;
-  /* height: 8px; */
   overflow: hidden;
-  /* border: 1px solid black; */
 }
 
 .soundBar {
@@ -245,7 +243,7 @@
   max-width: 5rem;
   width: 100%;
   height: 16px;
-  background: rgb(27, 27, 27);
+  background: var(--clr-drk);
   cursor: pointer; /* Cursor on hover */
   z-index: 2;
 }
@@ -255,7 +253,7 @@
   z-index: 1;
   width: 100%;
   height: 8px;
-  background: #6fa7f1;
+  background: var(--clr-pnt);
   top: 50%;
   transform: translateY(-50%);
   pointer-events: none;
@@ -266,25 +264,25 @@
   appearance: none;
   width: 12px;
   height: 16px;
-  background: #6fa7f1;
+  background: var(--clr-pnt);
 }
 
 .soundBar::-moz-range-thumb {
   width: 12px;
   height: 16px;
-  background: #6fa7f1;
+  background: var(--clr-pnt);
 }
 
 .soundActivated {
-  background: black !important;
+  background: var(--clr-drk) !important;
 }
 
 .soundActivated::-webkit-slider-thumb {
-  background: black !important;
+  background: var(--clr-drk) !important;
 }
 
 .soundActivated::-moz-range-thumb {
-  background: black !important;
+  background: var(--clr-drk) !important;
 }
 
 .dev {

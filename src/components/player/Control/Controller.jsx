@@ -76,7 +76,7 @@ function Controller({
           <div className={styles.progressCover}>
             <div
               className={styles.progressFill}
-              style={{ right: `${currentBar}%` }}
+              style={{ right: `calc(${currentBar}% - 2px)` }}
             ></div>
             <input
               className={`${styles.progressBar}`}
