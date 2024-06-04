@@ -177,7 +177,7 @@
 
 .progressFill {
   position: absolute;
-  width: 100%;
+  width: calc(100% + 2px);
   height: 100%;
   top: 0;
   z-index: 9;
@@ -193,6 +193,7 @@
   height: 100%;
   cursor: pointer;
   background-color: var(--clr-drk);
+  outline: none;
 }
 
 .progressBar::-webkit-slider-thumb {
@@ -246,6 +247,7 @@
   background: var(--clr-drk);
   cursor: pointer; /* Cursor on hover */
   z-index: 2;
+  outline: none;
 }
 
 .soundFill {

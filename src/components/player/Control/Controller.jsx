@@ -80,6 +80,7 @@ function Controller({
             ></div>
             <input
               className={`${styles.progressBar}`}
+              onKeyDown={(e) => e.preventDefault()}
               type="range"
               min="0"
               max={progress.total}
@@ -118,6 +119,7 @@ function Controller({
               className={`${styles.soundBar} ${
                 isMute && styles.soundActivated
               }`}
+              onKeyDown={(e) => e.preventDefault()}
               type="range"
               min="0"
               max="1"

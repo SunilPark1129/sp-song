@@ -3,7 +3,7 @@ import Controller from "./Control/Controller";
 import styles from "./AudioPlayer.module.css";
 import { aduioFiles } from "../../lib/files";
 
-function AudioPlayer() {
+function AudioPlayer({ keyDown }) {
   const [currentSong, setCurrentSong] = useState(0);
   const [isPlaying, setIsPlaying] = useState(false);
   const [skipValue, setSkipValue] = useState(null);
@@ -12,6 +12,26 @@ function AudioPlayer() {
   const [isMute, setIsMute] = useState(false);
 
   const audioRef = useRef();
+
+  useEffect(() => {
+    if (keyDown === "pause") {
+      setIsPlaying((prev) => !prev);
+    } else if (keyDown === "prev") {
+      setSkipValue("prev");
+    } else if (keyDown === "next") {
+      setSkipValue("next");
+    } else if (keyDown === "mute") {
+      setIsMute((prev) => !prev);
+    } else if (keyDown === "volumeUp") {
+      setVolume((prev) =>
+        Number(prev) + 0.1 >= 1 ? "1" : String(Number(prev) + 0.1)
+      );
+    } else if (keyDown === "volumeDown") {
+      setVolume((prev) =>
+        Number(prev) - 0.1 <= 0 ? "0" : String(Number(prev) - 0.1)
+      );
+    }
+  }, [keyDown]);
 
   useEffect(() => {
     if (isPlaying) {
@@ -84,7 +104,6 @@ function AudioPlayer() {
     if (audioRef.current) {
       audioRef.current.addEventListener("loadedmetadata", handleMetadataLoad);
 
-      // 컴포넌트 언마운트 시 이벤트 리스너 정리
       return () => {
         audioRef.current.removeEventListener(
           "loadedmetadata",
@@ -95,6 +114,7 @@ function AudioPlayer() {
   }, [audioRef]);
 
   useEffect(() => {
+    console.log(volume);
     if (volume === "0") {
       setIsMute(true);
     } else {
