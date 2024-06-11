@@ -71,10 +71,10 @@
   transition: padding 0.25s ease-in-out;
 }
 
-.musicLists li:hover:not(.activated) {
+/* .musicLists li:hover:not(.activated) {
   color: #494949 !important;
   background-color: #ececec;
-}
+} */
 
 .activated {
   font-weight: bold;
