@@ -3,14 +3,32 @@ import paper from "../asset/도화지.mp3";
 import open_the_door from "../asset/문을 열어.mp3";
 import to_the_star from "../asset/별에게.mp3";
 import maybe from "../asset/아마 그럴 거야.mp3";
+import food from "../asset/고른 맛집.mp3";
+import time_tycoon from "../asset/Time Tycoon.mp3";
 
 import same_heart_thumb from "../asset/같은 마음이었으면-Thumbnail.jpg";
 import paper_thumb from "../asset/도화지-Thumbnail.jpg";
 import open_the_door_thumb from "../asset/문을 열어-Thumbnail.jpg";
 import to_the_star_thumb from "../asset/별에게-Thumbnail.jpg";
 import maybe_thumb from "../asset/아마 그럴 거야-Thumbnail.jpg";
+import food_thumb from "../asset/고른 맛집-Thumbnail.jpg";
+import time_tycoon_thumb from "../asset/Time Tycoon-Thumbnail.jpg";
 
 export const aduioFiles = [
+  {
+    title: "Time Tycoon",
+    url: time_tycoon,
+    thumb: time_tycoon_thumb,
+    lyrics:
+      "[Verse 1]\nLost in the echo, drowning in disdain,\nPointing fingers, empathy in chains.\n\nHours dissolve in debates so petty,\nPurpose fades, ain't nothing steady.\n\nIn this race of time, we're falling back,\nDreams abandoned, minds off track.\n\nSeeking solace in screens, we scroll our fates,\nSitting at the table, like I'm Time Bill Gates.\n\n[Chorus]\nWe're haters, can't see the real deal,\nThumbs down people, wasting what we feel.\nOthers seem strange if they don't share our view,\nLiving like we're Time Bill Gates, misconstruing moments too.\n\n[Verse 2]\nReflections tainted, mirrors show scorn,\nTrapped in illusions, truth gets torn.\n\nTime slips by, pride as our guide,\nIn shadows' grip, our true selves hide.\n\nSilent nights, regrets invade,\nMoments wasted, opportunities fade.\n\nYet we boast big, dreams we conceive,\nSitting at the table, like I'm Time Bill Gates.\n\n[Chorus]\nBlinded by arrogance, vision is skewed,\nLost in our echo chambers, reality eludes.\nJudging others, hiding behind a mask,\nLiving in delusion, a never-ending task.\n\nWe're haters, can't see the real deal,\nThumbs down people, wasting what we feel.\nOthers seem strange if they don't share our view,\nLiving like we're Time Bill Gates, misconstruing moments too.\n\nWe're haters, can't see the real deal,\nThumbs down people, wasting what we feel.\nOthers seem strange if they don't share our view,\nLiving like we're Time Bill Gates, misconstruing moments too.\n\n[Verse 3]\nReflections tainted, mirrors show scorn,\nTrapped in illusions, truth gets torn.\n\nTime slips by, pride as our guide,\nIn shadows' grip, our true selves hide.\n\nSilent nights, regrets invade,\nMoments wasted, opportunities fade.\n\nYet we boast big, dreams we conceive,\nSitting at the table, like I'm Time Bill Gates.\n\n[Chorus]\nBlinded by arrogance, vision is skewed,\nLost in our echo chambers, reality eludes.\nJudging others, hiding behind a mask,\nLiving in delusion, a never-ending task.\n\nWe're haters, can't see the real deal,\nThumbs down people, wasting what we feel.\nOthers seem strange if they don't share our view,\nLiving like we're Time Bill Gates, misconstruing moments too.\n\nWe're haters, can't see the real deal,\nThumbs down people, wasting what we feel.\nOthers seem strange if they don't share our view.\n\nLiving in delusion, a never-ending task.\n\nWe're haters, can't see the real deal,\nThumbs down people, wasting what we feel.\nOthers seem strange if they don't share our view.",
+  },
+  {
+    title: "고른 맛집",
+    url: food,
+    thumb: food_thumb,
+    lyrics:
+      "[Narrator]\n배고프다..\n뭐먹지..?\n배만 채우는건 싫은데..\n\n[Verse 1]\n서치해 먹고 싶은걸 (배만 채운건 싫어)\n한칸식 넘겨 메뉴들 (신중하게 다시 생각해)\n저스트 웨잇트 (감동하는 맛을 상상해)\n맛있는거 고를 거야\n\n[Chorus]\n안녕하세요!\n아엠 맛집을 찾아내는\n매직을 가졌어요\n내가 정한 맛집들은\n모두가 라이크할거에요\n\n[Verse 2]\n찾아봐 가고 싶은곳 (배만 채운건 싫어)\n한장식 넘겨 사진들 (신중하게 다시 생각해)\n저스트 웨잇트 (감동하는 맛을 상상해)\n맛있는거 고를 거야\n\n[Narrator]\n뭐 먹을거 있나?..\n정했다..\n오늘은 이 맛집으로\n\n[Chorus]\n안녕하세요!\n아엠 맛집을 찾아내는\n매직을 가졌어요\n내가 정한 맛집들은\n모두가 라이크할거에요\n\n안녕하세요!\n아엠 맛집을 찾아내는\n매직을 가졌어요\n내가 정한 맛집들은\n모두가 라이크할거에요",
+  },
   {
     title: "같은 마음이었으면",
     url: same_heart,
@@ -19,18 +37,18 @@ export const aduioFiles = [
       "[Verse 1]\n어제 그에게 연락 왔어\n오랜 만에 만나자\n사실 기다렸던 문자였지\n이제 만나로 나가는 중\n\n안녕 구름씨야\n나 많이 긴장되네\n내 귀에 속삭이듯\n시원한 바람 불어줘 \n\n[Chorus]\n왜 상쾌한 기분이 들지\n좋은 일이 있을 것만 같아\n토끼 걸음 되어\n지금 만나로 가는중이야\n\n[Verse 2]\n지금 만나로 가고 있어\n오랜 만에 보려고\n사실 오랜기간 기다렸어\n어서 그이를 보고싶 어 \n\n안녕 나무씨야\n나 많이 긴장되네\n내 옆을 지켜주듯\n그늘로 햇빛 가려줘\n\n[Chorus]\n왜 상쾌한 기분이 들지\n좋은 일이 있을 것만 같아\n토끼 걸음 되어\n지금 만나로 가는중이야\n\n그이도 나랑 같은 기분일까\n같은 기분이였으면 좋겠다\n\n왜 상쾌한 기분이 들지\n좋은 일이 있을 것만 같아\n토끼 걸음 되어\n지금 만나로 가는중이야\n",
   },
   {
-    title: "도화지",
-    url: paper,
-    thumb: paper_thumb,
-    lyrics:
-      "[Verse 1]\n자 오늘 떠나요\n도화지로 누워서\n여행곡선 밖으로 가보세요\nJa-Ah 그곳엔 무엇이\n나를 기다리고 있을까\n새롭게 선을 만들어 보세요\n\n[Chorus]\n해 야 해맑게 웃어봐\n달이 오늘은 쉬겠데요\n해 야 해맑게 웃어봐\n달이 오늘은 쉬겠데요\n\n[Verse 2]\n자 오늘 떠나요\n도화지로 뛰어서\n여행곡선 밖으로 가보세요\nJa-Ah 그곳엔 무엇이\n나를 기다리고 있을까\n새롭게 선을 만들어 보세요\n\n[Chorus]\n해 야 해맑게 웃어봐\n달이 오늘은 쉬겠데요\n해 야 해맑게 웃어봐\n달이 오늘은 쉬겠데요\n\n해 야\n끝까지 우리를 비추어 주세요\n오늘은 집에 늦게 갈거야\n작은 도화지에 모든 그림을 구겨넣어\n모든 추억을 간직하게 해주세요\n\n해 야 해맑게 웃어봐\n달이 오늘은 쉬겠데요\n해 야 해맑게 웃어봐\n달이 오늘은 쉬겠데요",
-  },
-  {
     title: "문을 열어",
     url: open_the_door,
     thumb: open_the_door_thumb,
     lyrics:
       "[Verse 1]\n그거아니 세상에 문이 하나인걸\n니에게 비치는 내모습은\n어떤 모습을 하고있니 view가 dream이야\n\n아직도 니눈엔 내가 같아보이니\n두눈 떠\n아무것도 없는 위를 향해\nmoon이 없는 하늘을 봐\n\n[Bridge]\n역시 view가 dream이야\n아직도 니눈엔 내가 같아보이니\n두눈 떠 아무것도 없는 위를 향해\nmoon이 없는 하늘을 봐\n\n[Chorus]\n하나! 둘! 백! 생기는 moon이야\n위 움직이는 톱니바퀴\n엉켜있는 문들은 다 가짜야\n\n문을 열어봐 또로 또도독 똑-똑똑똑\nlight 없는 것을 찾아 또, 똑, 또독\n문을 열어봐 또로 또도독\n열어봐요 열어 막 so good 늘 최고\n문을 열어 또도독 똑똑똑똑\nShaman 묻는 문이 잘 꾸며\npang pang on 다같이 할퀴어지는데\n\n[Verse 2]\n알려줄게 moon은 home\n내가 훔친 magic world\n진짜 moon은 너가 나고\n그 moon은 나도 너야\nview가 dream이야\n\n아직도 니눈엔 내가 같아 보이니\n두눈 떠 아무것도 없는 위를\n향해 moon이 없는 하늘을 봐\n\n[Bridge]\n역시 view가 dream이야\n아직도 니눈엔 내가 같아보이니\n두눈 떠 아무것도 없는 위를 향해\nmoon이 없는 하늘을 봐\n\n[Chorus]\n하나! 둘! 백! 생기는 moon이야\n위 움직이는 톱니바퀴\n엉켜있는 문들은 다 가짜야\n\n문을 열어봐 또로 또도독 똑-똑똑똑\nlight 없는 것을 찾아 또, 똑, 또독\n문을 열어봐 또로 또도독\n열어봐요 열어 막 so good 늘 최고\n문을 열어 또도독 똑똑똑똑\n",
+  },
+  {
+    title: "도화지",
+    url: paper,
+    thumb: paper_thumb,
+    lyrics:
+      "[Verse 1]\n자 오늘 떠나요\n도화지로 누워서\n여행곡선 밖으로 가보세요\nJa-Ah 그곳엔 무엇이\n나를 기다리고 있을까\n새롭게 선을 만들어 보세요\n\n[Chorus]\n해 야 해맑게 웃어봐\n달이 오늘은 쉬겠데요\n해 야 해맑게 웃어봐\n달이 오늘은 쉬겠데요\n\n[Verse 2]\n자 오늘 떠나요\n도화지로 뛰어서\n여행곡선 밖으로 가보세요\nJa-Ah 그곳엔 무엇이\n나를 기다리고 있을까\n새롭게 선을 만들어 보세요\n\n[Chorus]\n해 야 해맑게 웃어봐\n달이 오늘은 쉬겠데요\n해 야 해맑게 웃어봐\n달이 오늘은 쉬겠데요\n\n해 야\n끝까지 우리를 비추어 주세요\n오늘은 집에 늦게 갈거야\n작은 도화지에 모든 그림을 구겨넣어\n모든 추억을 간직하게 해주세요\n\n해 야 해맑게 웃어봐\n달이 오늘은 쉬겠데요\n해 야 해맑게 웃어봐\n달이 오늘은 쉬겠데요",
   },
   {
     title: "별에게",
