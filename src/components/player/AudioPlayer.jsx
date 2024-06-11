@@ -114,7 +114,6 @@ function AudioPlayer({ keyDown }) {
   }, [audioRef]);
 
   useEffect(() => {
-    console.log(volume);
     if (volume === "0") {
       setIsMute(true);
     } else {
