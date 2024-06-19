@@ -5,6 +5,9 @@ import to_the_star from "../asset/별에게.mp3";
 import maybe from "../asset/아마 그럴 거야.mp3";
 import food from "../asset/고른 맛집.mp3";
 import time_tycoon from "../asset/Time Tycoon.mp3";
+import leave_your_worries from "../asset/Leave your worries behind the door.mp3";
+import today_is_yesterday from "../asset/Today is yesterday's tomorrow.mp3";
+import wanderlust from "../asset/Wanderlust.mp3";
 
 import same_heart_thumb from "../asset/같은 마음이었으면-Thumbnail.jpg";
 import paper_thumb from "../asset/도화지-Thumbnail.jpg";
@@ -13,6 +16,9 @@ import to_the_star_thumb from "../asset/별에게-Thumbnail.jpg";
 import maybe_thumb from "../asset/아마 그럴 거야-Thumbnail.jpg";
 import food_thumb from "../asset/고른 맛집-Thumbnail.jpg";
 import time_tycoon_thumb from "../asset/Time Tycoon-Thumbnail.jpg";
+import leave_your_worries_thumb from "../asset/Leave your worries behind the door-Thumbnail.jpg";
+import today_is_yesterday_thumb from "../asset/Today is yesterday's tomorrow-Thumbnail.jpg";
+import wanderlust_thumb from "../asset/Wanderlust-Thumbnail.jpg";
 
 export const aduioFiles = [
   {
@@ -21,6 +27,27 @@ export const aduioFiles = [
     thumb: time_tycoon_thumb,
     lyrics:
       "[Verse 1]\nLost in the echo, drowning in disdain,\nPointing fingers, empathy in chains.\n\nHours dissolve in debates so petty,\nPurpose fades, ain't nothing steady.\n\nIn this race of time, we're falling back,\nDreams abandoned, minds off track.\n\nSeeking solace in screens, we scroll our fates,\nSitting at the table, like I'm Time Bill Gates.\n\n[Chorus]\nWe're haters, can't see the real deal,\nThumbs down people, wasting what we feel.\nOthers seem strange if they don't share our view,\nLiving like we're Time Bill Gates, misconstruing moments too.\n\n[Verse 2]\nReflections tainted, mirrors show scorn,\nTrapped in illusions, truth gets torn.\n\nTime slips by, pride as our guide,\nIn shadows' grip, our true selves hide.\n\nSilent nights, regrets invade,\nMoments wasted, opportunities fade.\n\nYet we boast big, dreams we conceive,\nSitting at the table, like I'm Time Bill Gates.\n\n[Chorus]\nBlinded by arrogance, vision is skewed,\nLost in our echo chambers, reality eludes.\nJudging others, hiding behind a mask,\nLiving in delusion, a never-ending task.\n\nWe're haters, can't see the real deal,\nThumbs down people, wasting what we feel.\nOthers seem strange if they don't share our view,\nLiving like we're Time Bill Gates, misconstruing moments too.\n\nWe're haters, can't see the real deal,\nThumbs down people, wasting what we feel.\nOthers seem strange if they don't share our view,\nLiving like we're Time Bill Gates, misconstruing moments too.\n\n[Verse 3]\nReflections tainted, mirrors show scorn,\nTrapped in illusions, truth gets torn.\n\nTime slips by, pride as our guide,\nIn shadows' grip, our true selves hide.\n\nSilent nights, regrets invade,\nMoments wasted, opportunities fade.\n\nYet we boast big, dreams we conceive,\nSitting at the table, like I'm Time Bill Gates.\n\n[Chorus]\nBlinded by arrogance, vision is skewed,\nLost in our echo chambers, reality eludes.\nJudging others, hiding behind a mask,\nLiving in delusion, a never-ending task.\n\nWe're haters, can't see the real deal,\nThumbs down people, wasting what we feel.\nOthers seem strange if they don't share our view,\nLiving like we're Time Bill Gates, misconstruing moments too.\n\nWe're haters, can't see the real deal,\nThumbs down people, wasting what we feel.\nOthers seem strange if they don't share our view.\n\nLiving in delusion, a never-ending task.\n\nWe're haters, can't see the real deal,\nThumbs down people, wasting what we feel.\nOthers seem strange if they don't share our view.",
+  },
+  {
+    title: "Leave your worries behind the door",
+    url: leave_your_worries,
+    thumb: leave_your_worries_thumb,
+    lyrics:
+      "[Verse 1]\n가- 봐요 (for a while)\n끝이 보이는 터널을 넘어\n휴계소에서 쉬어 갈거에요\n내리막길 내려가듯 손을 위로 향해요\n\n[Pre-Chorus]\n나를 위한 Reward\nTurn off your phone for a while\n오늘은 내일의 나를 위해\n최고급 힐링코스를 태워줘요\n\n[Chorus]\nLeave your worries behind the door\n내일 뭘할지 고민하지 마\n건너편에 보이는 쉼표를 향해\n썬그라쓰 끼고 가보자는 거에요\n\n[Verse 2]\n보- 세요 (for a while)\n끝이 없는 바다를 넘어\n해변에서 쉬어 갈거에요\n배구공을 위로치듯 손을 위로 향해요\n\n[Pre-Chorus]\n나를 위한 Reward\nTurn off your phone for a while\n오늘은 내일의 나를 위해\n최고급 힐링코스를 태워줘요\n\n[Chorus]\nLeave your worries behind the door\n내일 뭘할지 고민하지 마\n건너편에 보이는 쉼표를 향해\n썬그라쓰 끼고 가보자는 거에요\nLeave your worries behind the door\n내일 뭘할지 고민하지 마\n건너편에 보이는 쉼표를 향해\n썬그라쓰 끼고 가보자는 거에요\n\n[Bridge]\n아-아-아-아-아\n두손에 장바구니 들고\n폭포치듯 쓸어 담아요\n내일을 위해 노는거에요\n\n[Chorus]\nLeave your worries behind the door\n내일 뭘할지 고민하지 마\n건너편에 보이는 쉼표를 향해\n썬그라쓰 끼고 가보자는 거에요\n\n[Outro]\n고민 하지마요 무거운 고민은\n문뒤에 두고오세요\n희미하게 보이는 빛을\n손으로 가리지 마세요",
+  },
+  {
+    title: "Today is yesterday's tomorrow",
+    url: today_is_yesterday,
+    thumb: today_is_yesterday_thumb,
+    lyrics:
+      "[Verse 1]\nWake up, same grind, rewind, I’m confined\nPromises, premises, heart’s in decline\nTasks stack high, lost in the abyss\nStaring out the window, lost in the mist\n\n[Pre-Chorus]\nToday’s a replay, déjà vu display\nPushing tasks to tomorrow, endless delay\nBelieve in change, new me on the rise\nBut tomorrow’s just today in disguise\n\n[Chorus]\nToday is yesterday's tomorrow, dreams I borrow\nFake takes, breaks, heart feels hollow\nWanna do much, but touch feels shallow\nTomorrow's me follows today's shadow\n\n[Verse 2]\nFuture slipping, dreams drip, grip is tight\nEveryone’s pace, I chase, stuck in night\nExcuses like chains, reasons running thin\nFrustration’s building, can’t seem to begin\n\n[Pre-Chorus]\nToday’s a replay, déjà vu display\nPushing tasks to tomorrow, endless delay\nBelieve in change, new me on the rise\nBut tomorrow’s just today in disguise\n\n[Chorus]\nToday is yesterday's tomorrow, dreams I borrow\nFake takes, breaks, heart feels hollow\nWanna do much, but touch feels shallow\nTomorrow's me follows today's shadow\n\n[Bridge]\nBreak free, see me, redefine fate\nStep by step, don't wait, won't hesitate\nSame old loop, in group, trapped in debate\nEnd up stuck, same state, contemplate\n\n[Chorus]\nToday is yesterday's tomorrow, dreams I borrow\nFake takes, breaks, heart feels hollow\nWanna do much, but touch feels shallow\nTomorrow's me follows today's shadow\n\n[Outro]\nToday, like yesterday, I wear the same chain\nTomorrow’s just today, in a different frame\nTiny promises clash, they start to collide\nWill they change me someday, be my guide?",
+  },
+  {
+    title: "Wanderlust",
+    url: wanderlust,
+    thumb: wanderlust_thumb,
+    lyrics:
+      "[Verse 1]\nWe’ve been running fast in circles, stuck in yesterday\nBut now it's time to break away, and find a better way\nPack your bags, the world is calling, let's set out to roam\nNo more stress, just happiness, we’re far away from home\n\n[Pre-Chorus]\nOh, the sun is shining bright, it's a brand new day\nLet's forget about the world, come on, let’s play\n\n[Chorus]\nLeave your worries at the door\nTurn off your phone for a while\nFree your mind and let your heart soar\nHit the road today, let's live it up in style\nLet's just let it flow, let's just let it flow\n\n[Verse 2]\nFeel the wind upon your face, the open road ahead\nEvery mile, a new adventure, nothing left unsaid\nSing along to our own anthem, let’s make it last\nEvery second, every heartbeat, forget about the past\n\n[Pre-Chorus]\nOh, the sun is shining bright, it's a brand new day\nLet's forget about the world, come on, let’s play\n\n[Chorus]\nLeave your worries at the door\nTurn off your phone for a while\nFree your mind and let your heart soar\nHit the road today, let's live it up in style\nLet's just let it flow, let's just let it flow\n\n[Bridge]\nFeel the wind upon your face, the open road ahead\nEvery mile, a new adventure, nothing left\nWith you by my side, there’s nothing we can’t do\nLet’s chase the horizon, me and you\n\n[Chorus]\nLeave your worries at the door\nTurn off your phone for a while\nFree your mind and let your heart soar\nHit the road today, let's live it up in style\nLet's just let it flow, let's just let it flow\n\n[Outro]\nWe'll drive all night, till the break of dawn\nSinging our song, we'll keep moving on\nFeel the freedom, let the good times roll\nTogether we'll go, just let it flow, just let it flow\n\n[Chorus]\nLeave your worries at the door\nTurn off your phone for a while\nFree your mind and let your heart soar\nHit the road today, let's live it up in style\nLet's just let it flow, let's just let it flow\n\n[Outro]\nWe'll drive all night, till the break of dawn\nSinging our song, we'll keep moving on\nFeel the freedom, let the good times roll\nTogether we'll go, just let it flow, just let it flow",
   },
   {
     title: "고른 맛집",
