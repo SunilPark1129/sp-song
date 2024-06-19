@@ -43,18 +43,17 @@
   list-style: none;
   display: flex;
   flex-direction: column;
-  /* background-color: rgb(139, 139, 139); */
   width: 100%;
   flex-grow: 1;
-  padding: 0.5em;
-  /* box-shadow: 8px 8px 8px -5px rgb(7, 7, 7) inset,
-    -8px -8px 8px -5px rgb(7, 7, 7) inset; */
+  gap: 0.5em;
   text-align: right;
   overflow: hidden;
   max-width: 20em;
-  &::-webkit-scrollbar {
-    width: 0px;
-    background-color: transparent;
+  max-height: 20rem;
+  padding: 0 1em;
+
+  &::-webkit-scrollbar-thumb {
+    background-color: rgba(8, 8, 8, 0.273);
   }
 
   @media (max-width: 500px) {
@@ -68,22 +67,15 @@
 .musicLists li {
   color: #494949;
   cursor: pointer;
-  padding: 0.25em 0.5em;
-  font-size: 0.9em;
-  white-space: nowrap;
-  /* overflow: hidden !important; */
-  text-overflow: ellipsis;
+  padding: 0.25em 0em;
+  font-size: 1em;
   transition: padding 0.25s ease-in-out;
+  user-select: none;
 }
-
-/* .musicLists li:hover:not(.activated) {
-  color: #494949 !important;
-  background-color: #ececec;
-} */
 
 .activated {
   font-weight: bold;
-  padding: 1.5em 0.5em !important;
+  padding: 1.5em 0em !important;
   color: black !important;
 }
 
