@@ -28,10 +28,17 @@ function Controller({
   lyrics,
 }) {
   const textareaRef = useRef(null);
+  const listRef = useRef(null);
   const [hasOpenedLyrics, setHasOpenedLyrics] = useState(false);
   const currentBar = 100 - progress.percentage;
 
   useEffect(() => {
+    if (listRef.current) {
+      listRef.current.children[currentSong].scrollIntoView({
+        behavior: "smooth",
+        block: "nearest",
+      });
+    }
     if (textareaRef.current) {
       textareaRef.current.scrollTop = 0;
     }
@@ -46,7 +53,7 @@ function Controller({
         <div className={styles.imgContainer}>
           <img src={thumb} alt={title} />
         </div>
-        <ul className={styles.musicLists}>
+        <ul className={styles.musicLists} ref={listRef}>
           {aduioFiles.map((item, idx) => (
             <li
               key={idx}
