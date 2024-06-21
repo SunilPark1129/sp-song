@@ -42,7 +42,12 @@ function AudioPlayer({ keyDown }) {
       navigator.mediaSession.setActionHandler("stop", () => {
         setIsPlaying(false);
       });
+    }
+  }, []);
 
+  // display song information on the car's screen
+  useEffect(() => {
+    if ("mediaSession" in navigator) {
       navigator.mediaSession.metadata = new MediaMetadata({
         title: aduioFiles[currentSong].title,
         artist: "Sunil Park",
@@ -56,7 +61,7 @@ function AudioPlayer({ keyDown }) {
         ],
       });
     }
-  }, []);
+  }, [currentSong]);
 
   useEffect(() => {
     if (keyDown === "pause") {
