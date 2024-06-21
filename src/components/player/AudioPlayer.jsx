@@ -13,6 +13,38 @@ function AudioPlayer({ keyDown }) {
 
   const audioRef = useRef();
 
+  // Interacting with the car's audio player
+  useEffect(() => {
+    if ("mediaSession" in navigator) {
+      navigator.mediaSession.setActionHandler("nexttrack", () => {
+        setSkipValue("next");
+      });
+      navigator.mediaSession.setActionHandler("previoustrack", () => {
+        setSkipValue("prev");
+      });
+      navigator.mediaSession.setActionHandler("pause", () => {
+        setIsPlaying((prev) => !prev);
+      });
+
+      navigator.mediaSession.setActionHandler("seekforward", () => {
+        audioRef.current.currentTime = Math.min(
+          audioRef.current.currentTime + 10,
+          audioRef.current.duration
+        );
+      });
+      navigator.mediaSession.setActionHandler("seekbackward", () => {
+        audioRef.current.currentTime = Math.max(
+          audioRef.current.currentTime - 10,
+          0
+        );
+      });
+
+      navigator.mediaSession.setActionHandler("stop", () => {
+        setIsPlaying(false);
+      });
+    }
+  }, []);
+
   useEffect(() => {
     if (keyDown === "pause") {
       setIsPlaying((prev) => !prev);

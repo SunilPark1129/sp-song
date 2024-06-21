@@ -20,6 +20,7 @@ function App() {
   useEffect(() => {
     return () => setKeyDown(null);
   }, [keyDown]);
+
   return (
     <div className="App" onKeyDown={keyDownHandler} tabIndex={0}>
       <AudioPlayer keyDown={keyDown} />
