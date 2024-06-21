@@ -42,6 +42,19 @@ function AudioPlayer({ keyDown }) {
       navigator.mediaSession.setActionHandler("stop", () => {
         setIsPlaying(false);
       });
+
+      navigator.mediaSession.metadata = new MediaMetadata({
+        title: aduioFiles[currentSong].title,
+        artist: "Sunil Park",
+        album: "Sunil Album",
+        artwork: [
+          {
+            src: aduioFiles[currentSong].thumb,
+            sizes: "512x512",
+            type: "image/jpeg",
+          },
+        ],
+      });
     }
   }, []);
 
