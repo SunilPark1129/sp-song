@@ -8,6 +8,7 @@ import time_tycoon from "../asset/Time Tycoon.mp3";
 import leave_your_worries from "../asset/Leave your worries behind the door.mp3";
 import today_is_yesterday from "../asset/Today is yesterday's tomorrow.mp3";
 import wanderlust from "../asset/Wanderlust.mp3";
+import horizontal from "../asset/저 건너 지평선.mp3";
 
 import same_heart_thumb from "../asset/같은 마음이었으면-Thumbnail.jpg";
 import paper_thumb from "../asset/도화지-Thumbnail.jpg";
@@ -19,8 +20,16 @@ import time_tycoon_thumb from "../asset/Time Tycoon-Thumbnail.jpg";
 import leave_your_worries_thumb from "../asset/Leave your worries behind the door-Thumbnail.jpg";
 import today_is_yesterday_thumb from "../asset/Today is yesterday's tomorrow-Thumbnail.jpg";
 import wanderlust_thumb from "../asset/Wanderlust-Thumbnail.jpg";
+import horizontal_thumb from "../asset/저 건너 지평선-Thumbnail.jpg";
 
 export const aduioFiles = [
+  {
+    title: "저 건너 지평선",
+    url: horizontal,
+    thumb: horizontal_thumb,
+    lyrics:
+      "[Verse 1]\n이슬이 고여있는 이른 아침,\n소리가 혹시 들리는거 같아.\n익숙하지 않는 고요한 부엌으로\n나도 모르게 걸음을 옮겨.\n\n[Pre-Chorus]\n현실을 부정하는 나의감정,\n익숙해 지는게 아니야.\n항상 내 가슴 안에 같이 있다는,\n그런 생각으로 난 살아가.\n\n[Chorus]\n푸른 빛 하늘색 저 건너 지평선\n위에서 바라봐 우리가 잘 지내는 모습들.\n웃기도 울기도 했지 그때 그랬잖아,\n걱정하지마 내일도 인사하로 올게.\n\n[Verse 2]\n감정이 넘쳐나는 늦은 저녁,\n오늘은 혹시 들어올거 같아.\n익숙하지 않는 조용한 현관문을\n나도 모르게 걸음을 옮겨.\n\n[Pre-Chorus]\n현실을 부정하는 나의감정,\n익숙해 지는게 아니야.\n항상 내 가슴 안에 같이 있다는,\n그런 생각으로 난 살아가.\n\n현실을 부정하는 나의감정,\n익숙해 지는게 아니야.\n항상 내 가슴 안에 같이 있다는,\n그런 생각으로 난 살아가.\n\n[Chorus]\n푸른 빛 하늘색 저 건너 지평선\n위에서 바라봐 우리가 잘 지내는 모습들.\n웃기도 울기도 했지 그때 그랬잖아,\n걱정하지마 내일도 인사하로 올게.\n\n[Bridge]\n익숙해지지 않아\n당연히 옆에 있는게 당연해서,\n세월이 지난 지금 이시간에도,\n그리워하며 기다리고 있어.\n\n[Pre-Chorus]\n현실을 부정하는 나의감정,\n익숙해 지는게 아니야.\n항상 내 가슴 안에 같이 있다는,\n그런 생각으로 난 살아가.\n\n[Chorus]\n푸른 빛 하늘색 저 건너 지평선\n위에서 바라봐 우리가 잘 지내는 모습들.\n웃기도 울기도 했지 그때 그랬잖아,\n걱정하지마 내일도 인사하로 올게.\n\n[Chorus]\n푸른 빛 하늘색 저 건너 지평선\n위에서 바라봐 우리가 잘 지내는 모습들.\n웃기도 울기도 했지 그때 그랬잖아,\n걱정하지마 내일도 인사하로 올게.\n\n[Outro]\n보고싶어, 그렇지만 아니야.\n나는 지금 잘지내.\n그래야 하늘에서 미소짓는 거잖아.\n지평선 너머 날 계속 지켜봐줘.",
+  },
   {
     title: "Time Tycoon",
     url: time_tycoon,
