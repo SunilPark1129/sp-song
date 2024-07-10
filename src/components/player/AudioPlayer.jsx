@@ -8,7 +8,7 @@ function AudioPlayer({ keyDown }) {
   const [isPlaying, setIsPlaying] = useState(false);
   const [skipValue, setSkipValue] = useState(null);
   const [progress, setProgress] = useState(null);
-  const [volume, setVolume] = useState(0.5);
+  const [volume, setVolume] = useState(1);
   const [isMute, setIsMute] = useState(false);
 
   const audioRef = useRef();

@@ -9,6 +9,8 @@ import leave_your_worries from "../asset/Leave your worries behind the door.mp3"
 import today_is_yesterday from "../asset/Today is yesterday's tomorrow.mp3";
 import wanderlust from "../asset/Wanderlust.mp3";
 import horizontal from "../asset/저 건너 지평선.mp3";
+import footprint from "../asset/발자국.mp3";
+import you_know from "../asset/you know.mp3";
 
 import same_heart_thumb from "../asset/같은 마음이었으면-Thumbnail.jpg";
 import paper_thumb from "../asset/도화지-Thumbnail.jpg";
@@ -21,8 +23,24 @@ import leave_your_worries_thumb from "../asset/Leave your worries behind the doo
 import today_is_yesterday_thumb from "../asset/Today is yesterday's tomorrow-Thumbnail.jpg";
 import wanderlust_thumb from "../asset/Wanderlust-Thumbnail.jpg";
 import horizontal_thumb from "../asset/저 건너 지평선-Thumbnail.jpg";
+import footprint_thumb from "../asset/발자국-Thumbnail.jpg";
+import you_know_thumb from "../asset/you know-Thumbnail.jpg";
 
 export const aduioFiles = [
+  {
+    title: "You know",
+    url: you_know,
+    thumb: you_know_thumb,
+    lyrics:
+      "[Verse 1]\nLooking at the sky, the sun sets down\nToday was more exhausting than I had known\nI need a break, so I\nPick up my phone and call a familiar voice\n\n[Pre-Chorus]\nHey, it's me, what have you been up to?\nShare a story to brighten my mood\nLike a reward for my tough day, I feel healed\nI say goodbye and end the call\n\n[Chorus]\nYou know, when I think about it\nYou've always been there when I needed you\nMy comedian, Listen to my worries, got my back,\nfilling the space beside me, you understand me\nYou know, you're such a good person\n\n[Verse 2]\nHearing birds, I wake up\nI slept more than I thought today\nI had plans for today, so I\nPick up my phone and call a familiar voice\n\n[Pre-Chorus]\nHey, it's me, what were you up to?\nI overslept, so I'll be late today\nYou always waited for me in the same pattern\nI have to get ready, I hang up the phone\n\n[Chorus]\nYou know, when I think about it\nYou've always been there when I needed you\nMy comedian, Listen to my worries, got my back,\nfilling the space beside me, you understand me\nYou know, you're such a good person\n\n[Verse 3]\nWalking down the street, memories unfold\nThrough ups and downs, your hand I hold\nIn laughter and tears, you're always near\nWith you by my side, there's nothing to fear\n\n[Pre-Chorus]\nHey, it's me, just wanted to say\nThank you for being my light every day\nIn moments big and small, you shine bright\nI'm grateful for you, my guiding light\n\n[Chorus]\nYou know, when I think about it\nYou've always been there when I needed you\nMy comedian, Listen to my worries, got my back,\nfilling the space beside me, you understand me\nYou know, you're such a good person\n\n[Outro]\nAs the day fades into night\nI'm grateful for your presence, your light\nWith you, I find comfort and cheer\nIn your company, I have nothing to fear",
+  },
+  {
+    title: "발자국",
+    url: footprint,
+    thumb: footprint_thumb,
+    lyrics:
+      "[Verse 1]\n아침부터 해가 뜨거운\n운전대를 잡고 오늘도\n도시를 떠 돌아나는\n현실성 없는 내 모습을 거울로 바라봐\n\n[Bridge]\n도착지는 없잖아\n미래는 안보이잖아\n하고싶은건 있잖아\n할 용기가 안나잖아\n\n[Pre-Chorus]\n기록이 남았어 밟았던 발-자국\n생각나 나만의 알찼던 왕-국\n잊지마 나혼자 해왔던 연-극\n끝까지 가야되 야심찬 양-극으로\n\n[Chorus]\n먼산을 바라보듯\n올라가기 전 부터\n망설이는 내 모습.\n걱정마 시작해보면\n벌써 정상위에 도착해 있을거니까\n\n(이렇게 가만히 있지 말고)\n(위대한 발자국을 만들어 보자)\n\n[Verse 2]\n아직시작 하지 않았고\n고집땜에 나는 여전이\n힘들어 또 망설이는\n현실성 없는 내 모습을 거울로 바라봐\n\n[Bridge]\n계획부터 없잖아\n시작도 안해보잖아\n생각했던건 있잖아\n넌 용기가 안나잖아\n\n[Pre-Chorus]\n기록이 남았어 밟았던 발-자국\n생각나 나만의 알찼던 왕-국\n잊지마 나혼자 해왔던 연-극\n끝까지 가야되 야심찬 양-극으로\n\n[Chorus]\n먼산을 바라보듯\n올라가기 전 부터\n망설이는 내 모습.\n걱정마 시작해보면\n벌써 정상위에 도착해 있을거니까\n\n(이렇게 가만히 있지 말고)\n(위대한 발자국을 만들어 보자)\n\n[Pre-Chorus]\n기록이 남았어 밟았던 발-자국\n생각나 나만의 알찼던 왕-국\n잊지마 나혼자 해왔던 연-극\n끝까지 가야되 야심찬 양-극으로\n\n[Chorus]\n먼산을 바라보듯\n올라가기 전 부터\n망설이는 내 모습.\n걱정마 시작해보면\n벌써 정상위에 도착해 있을거니까\n\n[Outro]\n시간은 흘러가잖아\n지금부터 시작해\n시작하면 벌써 도착해있는\n너를 발견 할거야",
+  },
   {
     title: "저 건너 지평선",
     url: horizontal,
