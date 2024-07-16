@@ -36,13 +36,6 @@ import rain_sound_v2_thumb from "../asset/들리는 빗소리-v2-Thumbnail.jpg";
 
 export const aduioFiles = [
   {
-    title: "들리는 빗소리 v2",
-    url: rain_sound_v2,
-    thumb: rain_sound_v2_thumb,
-    lyrics:
-      "[Verse 1]\n한장씩, 잘 지내보여\n행복해 하는걸까\n유난히 들리는 비소리\n이제 나는 혼자야\n\n그래,후회하고 있어\n예민했던거 아닐까\n별일도 아니였던걸\n비가 이렇게 내리게 됐을까\n\n[Chorus]\n비야 내 대신 울어줘\n전부 담길때까지\n내 슬픔을 대신 전해\n비가 저쪽에도 내리길\n그이도 느낄 수 있게\n감정을 묘사해줘\n나는 못 지낸다고\n비를 계속 내려줘\n\n[Verse 2]\n추억속을 걷고있어\n내 맘도 비가 내리면 좋겠어\n쉽지 않아,\n이렇게 너를 보내는 건\n아직도 깊이 남아\n우린 젖듯이 빗속의 사랑\n\n[Chorus]\n비야 내 대신 울어줘\n하늘을 보게 돼\n그리운 마음이 소리없이\n내게 말을 걸어와\n잠 못 들게해\n나 침묵 속에서도 들려\n행복했던 기억들만\n더욱 선명해져\n\n[Outro]\n기억들 가득 안고서\n언젠가 이 빗속에서\n다시 너를 만나게 될까\n비가 내릴 때마다\n너의 흔적을 지나\n서서히 사라져 가네\n",
-  },
-  {
     title: "들리는 빗소리",
     url: rain_sound,
     thumb: rain_sound_thumb,
@@ -62,6 +55,13 @@ export const aduioFiles = [
     thumb: hesitating_thumb,
     lyrics:
       "[Verse 1]\n시선이 뜨거워 주변은 날 져지 그래서 난 덥지\nworst는 뜬 눈들로 날 쳐다봐\n사회에 적응 못하는 일인 망설이는게 요인\n근데 그거 알아?\n\n[Pre-Chorus]\n그들도 나와 다를게 없어\n뒤로 뒷걸음 둘때 뒤쳐지는 뒷모습은\n주변들이 주워먹어 날 안주로\n뒤로 말고 앞으로 가자\n\n[Chorus]\n(뭘 hesitating하고 있어)\n던져보자\n생각은 뒤로해\n(뭘 hesitating하고 있어)\n우선 몸을 던져\n지금부터는 하는얘기 진짜야\n뭘 hesitating하고 있어 해봐 그럼 된다니까\n(자보리 자보리)\n\n[Verse 2]\n누군가 쳐다봐 그들은 나의 리프리 그래서 난 고립\ncritic은 뜬 눈들로 날 쳐다봐\n사회에 적응 못하는 일인 망설이는게 요인\n근데 그거 알아?\n\n[Pre-Chorus]\n그들도 나와 다를게 없어\n뒤로 뒷걸음 둘때 뒤쳐지는 뒷모습은\n주변들이 주워먹어 날 안주로\n뒤로 말고 앞으로 가자\n\n[Chorus]\n(뭘 hesitating하고 있어)\n던져보자\n생각은 뒤로해\n(뭘 hesitating하고 있어)\n우선 몸을 던져\n지금부터는 하는얘기 진짜야\n뭘 hesitating하고 있어 해봐 그럼 된다니까\n(자보리 자보리)\n\n[Bridge]\n말했지 그들도 나랑 같은 인이야\n내가 더 나을수도 있다니까\n해보지 않으면 모르니까\n해보면 안다니까\n뒤로 말고 앞으로 가자\n\n[Chorus]\n(뭘 hesitating하고 있어)\n던져보자\n생각은 뒤로해\n(뭘 hesitating하고 있어)\n우선 몸을 던져\n지금부터는 하는얘기 진짜야\n뭘 hesitating하고 있어 해봐 그럼 된다니까\n\n[Outro]\n다 기억해보자\n어디서부터 망설였는지\n찾았다면 뭘 hesitating하고 있어\n뭘 hesitating하고 있어",
+  },
+  {
+    title: "들리는 빗소리 v2",
+    url: rain_sound_v2,
+    thumb: rain_sound_v2_thumb,
+    lyrics:
+      "[Verse 1]\n한장씩, 잘 지내보여\n행복해 하는걸까\n유난히 들리는 비소리\n이제 나는 혼자야\n\n그래,후회하고 있어\n예민했던거 아닐까\n별일도 아니였던걸\n비가 이렇게 내리게 됐을까\n\n[Chorus]\n비야 내 대신 울어줘\n전부 담길때까지\n내 슬픔을 대신 전해\n비가 저쪽에도 내리길\n그이도 느낄 수 있게\n감정을 묘사해줘\n나는 못 지낸다고\n비를 계속 내려줘\n\n[Verse 2]\n추억속을 걷고있어\n내 맘도 비가 내리면 좋겠어\n쉽지 않아,\n이렇게 너를 보내는 건\n아직도 깊이 남아\n우린 젖듯이 빗속의 사랑\n\n[Chorus]\n비야 내 대신 울어줘\n하늘을 보게 돼\n그리운 마음이 소리없이\n내게 말을 걸어와\n잠 못 들게해\n나 침묵 속에서도 들려\n행복했던 기억들만\n더욱 선명해져\n\n[Outro]\n기억들 가득 안고서\n언젠가 이 빗속에서\n다시 너를 만나게 될까\n비가 내릴 때마다\n너의 흔적을 지나\n서서히 사라져 가네\n",
   },
   {
     title: "You know",
