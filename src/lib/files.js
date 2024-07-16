@@ -11,6 +11,9 @@ import wanderlust from "../asset/Wanderlust.mp3";
 import horizontal from "../asset/저 건너 지평선.mp3";
 import footprint from "../asset/발자국.mp3";
 import you_know from "../asset/you know.mp3";
+import hesitating from "../asset/hesitating.mp3";
+import Nandatta from "../asset/Nandatta no ka na.mp3";
+import rain_sound from "../asset/들리는 빗소리.mp3";
 
 import same_heart_thumb from "../asset/같은 마음이었으면-Thumbnail.jpg";
 import paper_thumb from "../asset/도화지-Thumbnail.jpg";
@@ -25,8 +28,32 @@ import wanderlust_thumb from "../asset/Wanderlust-Thumbnail.jpg";
 import horizontal_thumb from "../asset/저 건너 지평선-Thumbnail.jpg";
 import footprint_thumb from "../asset/발자국-Thumbnail.jpg";
 import you_know_thumb from "../asset/you know-Thumbnail.jpg";
+import hesitating_thumb from "../asset/hesitating-Thumbnail.jpg";
+import Nandatta_thumb from "../asset/Nandatta no ka na-Thumbnail.jpg";
+import rain_sound_thumb from "../asset/들리는 빗소리-Thumbnail.jpg";
 
 export const aduioFiles = [
+  {
+    title: "들리는 빗소리",
+    url: rain_sound,
+    thumb: rain_sound_thumb,
+    lyrics:
+      "[Verse 1]\n한장씩, 잘 지내보여\n행복해 하는걸까\n유난히 들리는 빗소리\n이제 나는 혼자야\n\n그래, 후회하고 있어\n예민했던거 아닐까\n별일도 아니였던걸\n비가 이렇게 내리게 됐을까\n\n[Chorus]\n비야 내 대신 울어줘\n전부 담길때까지\n내 슬픔을 대신 전해\n비가 저쪽에도 내리길\n그이도 느낄 수 있게\n나는 못 지낸다고\n비를 계속 내려줘\n\n[Verse 2]\n힘들어, 못 지내겠어\n행복해 지고싶어\n더크게 외치는 빗소리\n이제 나는 말할래\n\n그래, 돌아가고 싶어\n그이도 다시 원할까\n별일도 아니였던걸\n비가 이렇게 내리게 됐을까\n\n[Chorus]\n비야 내 대신 울어줘\n전부 담길때까지\n내 슬픔을 대신 전해\n비가 저쪽에도 내리길\n그이도 느낄 수 있게\n나는 못 지낸다고\n비를 계속 내려줘\n\n[Bridge]\n내 마음을 전해줘\n난 다시 만나고 싶어\n내 마음을 전해줘\n난 다시 만나고 싶어\n비야 내 대신 울어줘\n그이에게 전해줘\n\n[Chorus]\n비야 내 대신 울어줘\n전부 담길때까지\n내 슬픔을 대신 전해\n비가 저쪽에도 내리길\n그이도 느낄 수 있게\n나는 못 지낸다고\n비를 계속 내려줘\n\n[Outro]\n난 안 괜찮아\n다시 해볼래\n",
+  },
+  {
+    title: "Nandatta no ka na",
+    url: Nandatta,
+    thumb: Nandatta_thumb,
+    lyrics:
+      "[Verse 1]\n彼と手が触れ合う気がする\n카레토 테가 후레아우 키가 스루\n知らないふりしても何も行動しない\n시라나이 후리시테모 나니모 코우도우시나이\nそれでも時間が経つのがわからない\n소레데모 지칸가 타츠노가 와카라나이\n今日も日が沈んでいくんだ\n쿄우모 히가 시즌데이쿤다\n\n[Pre-Chorus]\n残念だけどバスに乗らなきゃいけない\n잔넨다케도 바스니 노라나캬 이케나이\n彼の後ろ姿を見ようと思ったけど\n카레노 우시로스가타오 미요우토 오못타케도\n私に何かを言おうとしていたように感じた\n와타시니 나니카오 이요우토 시테이타 요우니 칸지타\nでもバスは待ってはくれなかった\n데모 바스와 맛테와 쿠레나캇타\n\n[Chorus]\nなぜその表情をしたんだろう\n나제 소노 효우죠오오 시탄다로우\n私に何を言おうとしていたんだろう\n와타시니 나니오 이요우토 시테이탄다로우\n顔をバスの窓に預けて\n카오오 바스노 마도니 아즈케테\n悩みながら家に帰る途中なの\n나야미나가라 이에니 카에루 토츄우나노\n\n[Verse 2]\n今日は私に話してくれる気がする\n쿄우와 와타시니 하나시테 쿠레루 키가 스루\n知らないふりしても告白をしない\n시라나이 후리시테모 코쿠하쿠오 시나이\nそれでも彼といるのは楽しい\n소레데모 카레토 이루노와 타노시이\n今日も日が沈んでいくんだ\n쿄우모 히가 시즌데이쿤다\n\n[Pre-Chorus]\n残念だけどバスに乗らなきゃいけない\n잔넨다케도 바스니 노라나캬 이케나이\n彼が私を引き留めて見つめるけど\n카레가 와타시오 히키토메테 미츠메루케도\nついに勇気を出して言おうとしていたように感じた\n츠이니 유우키오 다시테 이요우토 시테이타 요우니 칸지타\nでもバスは待ってはくれなかった\n데모 바스와 맛테와 쿠레나캇타\n\n[Chorus]\nなぜその表情をしたんだろう\n나제 소노 효우죠오오 시탄다로우\n私に何を言おうとしていたんだろう\n와타시니 나니오 이요우토 시테이탄다로우\n顔をバスの窓に預けて\n카오오 바스노 마도니 아즈케테\n悩みながら家に帰る途中なの\n나야미나가라 이에니 카에루 토츄우나노\n\n[Outro]\nあなたと一緒にいると楽しい\n아나타토 잇쇼니 이루토 타노시이\n待っているから勇気が出たら\n맛테이루카라 유우키가 데타라\n私たちはその時から始めるんだ\n와타시타치와 소노 토키카라 하지메룬다\n明日も相変わらず知らないふりをしなければいけないわ\n아시타모 아이카와라즈 시라나이 후리오 시나케레바 이케나이와",
+  },
+  {
+    title: "hesitating",
+    url: hesitating,
+    thumb: hesitating_thumb,
+    lyrics:
+      "[Verse 1]\n시선이 뜨거워 주변은 날 져지 그래서 난 덥지\nworst는 뜬 눈들로 날 쳐다봐\n사회에 적응 못하는 일인 망설이는게 요인\n근데 그거 알아?\n\n[Pre-Chorus]\n그들도 나와 다를게 없어\n뒤로 뒷걸음 둘때 뒤쳐지는 뒷모습은\n주변들이 주워먹어 날 안주로\n뒤로 말고 앞으로 가자\n\n[Chorus]\n(뭘 hesitating하고 있어)\n던져보자\n생각은 뒤로해\n(뭘 hesitating하고 있어)\n우선 몸을 던져\n지금부터는 하는얘기 진짜야\n뭘 hesitating하고 있어 해봐 그럼 된다니까\n(자보리 자보리)\n\n[Verse 2]\n누군가 쳐다봐 그들은 나의 리프리 그래서 난 고립\ncritic은 뜬 눈들로 날 쳐다봐\n사회에 적응 못하는 일인 망설이는게 요인\n근데 그거 알아?\n\n[Pre-Chorus]\n그들도 나와 다를게 없어\n뒤로 뒷걸음 둘때 뒤쳐지는 뒷모습은\n주변들이 주워먹어 날 안주로\n뒤로 말고 앞으로 가자\n\n[Chorus]\n(뭘 hesitating하고 있어)\n던져보자\n생각은 뒤로해\n(뭘 hesitating하고 있어)\n우선 몸을 던져\n지금부터는 하는얘기 진짜야\n뭘 hesitating하고 있어 해봐 그럼 된다니까\n(자보리 자보리)\n\n[Bridge]\n말했지 그들도 나랑 같은 인이야\n내가 더 나을수도 있다니까\n해보지 않으면 모르니까\n해보면 안다니까\n뒤로 말고 앞으로 가자\n\n[Chorus]\n(뭘 hesitating하고 있어)\n던져보자\n생각은 뒤로해\n(뭘 hesitating하고 있어)\n우선 몸을 던져\n지금부터는 하는얘기 진짜야\n뭘 hesitating하고 있어 해봐 그럼 된다니까\n\n[Outro]\n다 기억해보자\n어디서부터 망설였는지\n찾았다면 뭘 hesitating하고 있어\n뭘 hesitating하고 있어",
+  },
   {
     title: "You know",
     url: you_know,
