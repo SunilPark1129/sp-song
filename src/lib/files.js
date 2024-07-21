@@ -15,6 +15,7 @@ import hesitating from "../asset/hesitating.mp3";
 import Nandatta from "../asset/Nandatta no ka na.mp3";
 import rain_sound from "../asset/들리는 빗소리.mp3";
 import rain_sound_v2 from "../asset/들리는 빗소리-v2.mp3";
+import bubble from "../asset/bubblebubblebubble.mp3";
 
 import same_heart_thumb from "../asset/같은 마음이었으면-Thumbnail.jpg";
 import paper_thumb from "../asset/도화지-Thumbnail.jpg";
@@ -35,6 +36,12 @@ import rain_sound_thumb from "../asset/들리는 빗소리-Thumbnail.jpg";
 import rain_sound_v2_thumb from "../asset/들리는 빗소리-v2-Thumbnail.jpg";
 
 export const aduioFiles = [
+  {
+    title: "bubble bubble bubble",
+    url: bubble,
+    thumb: rain_sound_thumb,
+    lyrics: "",
+  },
   {
     title: "들리는 빗소리",
     url: rain_sound,
