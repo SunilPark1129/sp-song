@@ -65,14 +65,14 @@ function Controller({
           ))}
         </ul>
       </div>
-      {hasOpenedLyrics && (
+      {/* {hasOpenedLyrics && (
         <textarea
           ref={textareaRef}
           readOnly
           className={styles.lyrics}
           value={lyrics}
         ></textarea>
-      )}
+      )} */}
       <div className={styles.title}>
         <p>{title}</p>
       </div>
@@ -149,7 +149,7 @@ function Controller({
         >
           <AiFillStepForward />
         </button>
-        <button
+        {/* <button
           className={`${styles.btn} ${
             !hasOpenedLyrics && styles.lyricsNotActivated
           }`}
@@ -157,7 +157,7 @@ function Controller({
           title="display lyrics"
         >
           <MdLyrics />
-        </button>
+        </button> */}
       </div>
       <h1 className={styles.dev}>AI Album - Sunil Park</h1>
     </div>

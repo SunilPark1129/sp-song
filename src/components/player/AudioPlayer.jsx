@@ -203,7 +203,7 @@ function AudioPlayer({ keyDown }) {
           isMute={isMute}
           setIsMute={setIsMute}
           audioRef={audioRef}
-          lyrics={aduioFiles[currentSong].lyrics}
+          // lyrics={aduioFiles[currentSong].lyrics}
         />
       )}
     </div>
