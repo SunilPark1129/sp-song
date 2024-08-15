@@ -16,7 +16,8 @@ import Nandatta from "../asset/Nandatta no ka na.mp3";
 import rain_sound from "../asset/들리는 빗소리.mp3";
 import rain_sound_v2 from "../asset/들리는 빗소리-v2.mp3";
 import boobubble from "../asset/부우 버블.mp3";
-import tree from "../asset/나이든 나무.wav";
+import tree from "../asset/그래도 오길 잘 했어요.wav";
+import tree2 from "../asset/나이든 나무.wav";
 
 import same_heart_thumb from "../asset/같은 마음이었으면-Thumbnail.jpg";
 import paper_thumb from "../asset/도화지-Thumbnail.jpg";
@@ -38,6 +39,11 @@ import rain_sound_v2_thumb from "../asset/들리는 빗소리-v2-Thumbnail.jpg";
 import boobubble_thumb from "../asset/부우 버블-Thumbnail.jpg";
 
 export const aduioFiles = [
+  {
+    title: "그래도 오기 잘했어요",
+    url: tree,
+    thumb: horizontal_thumb,
+  },
   {
     title: "나이든 나무",
     url: tree,
