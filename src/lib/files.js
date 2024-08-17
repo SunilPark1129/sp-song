@@ -37,17 +37,13 @@ import Nandatta_thumb from "../asset/Nandatta no ka na-Thumbnail.jpg";
 import rain_sound_thumb from "../asset/들리는 빗소리-Thumbnail.jpg";
 import rain_sound_v2_thumb from "../asset/들리는 빗소리-v2-Thumbnail.jpg";
 import boobubble_thumb from "../asset/부우 버블-Thumbnail.jpg";
+import tree_thumb from "../asset/그래도 오길 잘 했어요-Thumbnail.jpg";
 
 export const aduioFiles = [
   {
     title: "그래도 오기 잘했어요",
     url: tree,
-    thumb: horizontal_thumb,
-  },
-  {
-    title: "나이든 나무",
-    url: tree,
-    thumb: horizontal_thumb,
+    thumb: tree_thumb,
   },
   {
     title: "부우 버블",
@@ -74,6 +70,11 @@ export const aduioFiles = [
     thumb: hesitating_thumb,
     lyrics:
       "[Verse 1]\n시선이 뜨거워 주변은 날 져지 그래서 난 덥지\nworst는 뜬 눈들로 날 쳐다봐\n사회에 적응 못하는 일인 망설이는게 요인\n근데 그거 알아?\n\n[Pre-Chorus]\n그들도 나와 다를게 없어\n뒤로 뒷걸음 둘때 뒤쳐지는 뒷모습은\n주변들이 주워먹어 날 안주로\n뒤로 말고 앞으로 가자\n\n[Chorus]\n(뭘 hesitating하고 있어)\n던져보자\n생각은 뒤로해\n(뭘 hesitating하고 있어)\n우선 몸을 던져\n지금부터는 하는얘기 진짜야\n뭘 hesitating하고 있어 해봐 그럼 된다니까\n(자보리 자보리)\n\n[Verse 2]\n누군가 쳐다봐 그들은 나의 리프리 그래서 난 고립\ncritic은 뜬 눈들로 날 쳐다봐\n사회에 적응 못하는 일인 망설이는게 요인\n근데 그거 알아?\n\n[Pre-Chorus]\n그들도 나와 다를게 없어\n뒤로 뒷걸음 둘때 뒤쳐지는 뒷모습은\n주변들이 주워먹어 날 안주로\n뒤로 말고 앞으로 가자\n\n[Chorus]\n(뭘 hesitating하고 있어)\n던져보자\n생각은 뒤로해\n(뭘 hesitating하고 있어)\n우선 몸을 던져\n지금부터는 하는얘기 진짜야\n뭘 hesitating하고 있어 해봐 그럼 된다니까\n(자보리 자보리)\n\n[Bridge]\n말했지 그들도 나랑 같은 인이야\n내가 더 나을수도 있다니까\n해보지 않으면 모르니까\n해보면 안다니까\n뒤로 말고 앞으로 가자\n\n[Chorus]\n(뭘 hesitating하고 있어)\n던져보자\n생각은 뒤로해\n(뭘 hesitating하고 있어)\n우선 몸을 던져\n지금부터는 하는얘기 진짜야\n뭘 hesitating하고 있어 해봐 그럼 된다니까\n\n[Outro]\n다 기억해보자\n어디서부터 망설였는지\n찾았다면 뭘 hesitating하고 있어\n뭘 hesitating하고 있어",
+  },
+  {
+    title: "나이든 나무",
+    url: tree2,
+    thumb: horizontal_thumb,
   },
   {
     title: "들리는 빗소리 v2",
