@@ -19,6 +19,7 @@ import boobubble from "../asset/부우 버블.mp3";
 import tree from "../asset/그래도 오길 잘 했어요.wav";
 import tree2 from "../asset/나이든 나무.wav";
 import seens_when from "../asset/언제 부터 였을까.wav";
+import touch_wind from "../asset/다른 이에 닿은 바람.wav";
 
 import same_heart_thumb from "../asset/같은 마음이었으면-Thumbnail.jpg";
 import paper_thumb from "../asset/도화지-Thumbnail.jpg";
@@ -39,8 +40,14 @@ import rain_sound_thumb from "../asset/들리는 빗소리-Thumbnail.jpg";
 import rain_sound_v2_thumb from "../asset/들리는 빗소리-v2-Thumbnail.jpg";
 import boobubble_thumb from "../asset/부우 버블-Thumbnail.jpg";
 import tree_thumb from "../asset/그래도 오길 잘 했어요-Thumbnail.jpg";
+import touch_wind_thumb from "../asset/다른 이에 닿은 바람-Thumbnail.jpg";
 
 export const aduioFiles = [
+  {
+    title: "다른 이에 닿은 바람",
+    url: touch_wind,
+    thumb: touch_wind_thumb,
+  },
   {
     title: "그래도 오기 잘했어요",
     url: tree,
