@@ -53,18 +53,16 @@
   padding: 0 1em;
 
   /* safari scroll */
+  overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
+}
 
-  &::-webkit-scrollbar-thumb {
-    background-color: rgba(8, 8, 8, 0.273);
-  }
-
-  @media (max-width: 500px) {
+@media (max-width: 500px) {
+  .musicLists {
     padding: 1.5em;
     max-width: 24rem;
     height: 8rem;
   }
-  overflow-y: scroll;
 }
 
 .musicLists li {
