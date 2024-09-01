@@ -47,7 +47,7 @@
   flex-grow: 1;
   gap: 0.5em;
   text-align: right;
-  overflow: hidden;
+  /* overflow: hidden; */
   max-width: 20em;
   max-height: 20rem;
   padding: 0 1em;
