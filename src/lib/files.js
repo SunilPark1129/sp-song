@@ -46,14 +46,14 @@ import breath_thumb from "../asset/숨쉬는 나-Thumbnail.jpg";
 
 export const aduioFiles = [
   {
-    title: "그래도 오기 잘했어요",
-    url: tree,
-    thumb: tree_thumb,
-  },
-  {
     title: "숨쉬는 나",
     url: breath,
     thumb: breath_thumb,
+  },
+  {
+    title: "그래도 오기 잘했어요",
+    url: tree,
+    thumb: tree_thumb,
   },
   {
     title: "다른 이에 닿은 바람",
