@@ -52,6 +52,9 @@
   max-height: 20rem;
   padding: 0 1em;
 
+  /* safari scroll */
+  -webkit-overflow-scrolling: touch;
+
   &::-webkit-scrollbar-thumb {
     background-color: rgba(8, 8, 8, 0.273);
   }
