@@ -21,6 +21,7 @@ import tree2 from "../asset/나이든 나무.wav";
 import seens_when from "../asset/언제 부터 였을까.wav";
 import touch_wind from "../asset/다른 이에 닿은 바람.wav";
 import breath from "../asset/숨쉬는 나.wav";
+import after_gone from "../asset/지나고 나서야.wav";
 
 import same_heart_thumb from "../asset/같은 마음이었으면-Thumbnail.jpg";
 import paper_thumb from "../asset/도화지-Thumbnail.jpg";
@@ -41,10 +42,17 @@ import rain_sound_thumb from "../asset/들리는 빗소리-Thumbnail.jpg";
 import rain_sound_v2_thumb from "../asset/들리는 빗소리-v2-Thumbnail.jpg";
 import boobubble_thumb from "../asset/부우 버블-Thumbnail.jpg";
 import tree_thumb from "../asset/그래도 오길 잘 했어요-Thumbnail.jpg";
+import seens_when_thumb from "../asset/언제 부터 였을까-Thumbnail.jpg";
 import touch_wind_thumb from "../asset/다른 이에 닿은 바람-Thumbnail.jpg";
 import breath_thumb from "../asset/숨쉬는 나-Thumbnail.jpg";
+import after_gone_thumb from "../asset/지나고 나서야-Thumbnail.jpg";
 
 export const aduioFiles = [
+  {
+    title: "지나고 나서야",
+    url: after_gone,
+    thumb: after_gone_thumb,
+  },
   {
     title: "숨쉬는 나",
     url: breath,
@@ -63,7 +71,7 @@ export const aduioFiles = [
   {
     title: "언제 부터 였을까",
     url: seens_when,
-    thumb: tree_thumb,
+    thumb: seens_when_thumb,
   },
   {
     title: "부우 버블",
