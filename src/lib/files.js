@@ -47,6 +47,7 @@ import seens_when_thumb from "../asset/언제 부터 였을까-Thumbnail.jpg";
 import touch_wind_thumb from "../asset/다른 이에 닿은 바람-Thumbnail.jpg";
 import breath_thumb from "../asset/숨쉬는 나-Thumbnail.jpg";
 import after_gone_thumb from "../asset/지나고 나서야-Thumbnail.jpg";
+import refills_thumb from "../asset/refills-Thumbnail.jpg";
 
 export const aduioFiles = [
   {
@@ -57,7 +58,7 @@ export const aduioFiles = [
   {
     title: "Refills",
     url: refills,
-    thumb: after_gone_thumb,
+    thumb: refills_thumb,
   },
   {
     title: "숨쉬는 나",
