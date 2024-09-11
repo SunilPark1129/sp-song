@@ -23,6 +23,7 @@ import touch_wind from "../asset/다른 이에 닿은 바람.wav";
 import breath from "../asset/숨쉬는 나.wav";
 import after_gone from "../asset/지나고 나서야.wav";
 import refills from "../asset/Refills.wav";
+import break_window from "../asset/Break the window.wav";
 
 import same_heart_thumb from "../asset/같은 마음이었으면-Thumbnail.jpg";
 import paper_thumb from "../asset/도화지-Thumbnail.jpg";
@@ -48,6 +49,7 @@ import touch_wind_thumb from "../asset/다른 이에 닿은 바람-Thumbnail.jpg
 import breath_thumb from "../asset/숨쉬는 나-Thumbnail.jpg";
 import after_gone_thumb from "../asset/지나고 나서야-Thumbnail.jpg";
 import refills_thumb from "../asset/refills-Thumbnail.jpg";
+import break_window_thumb from "../asset/Break the window-Thumbnail.jpg";
 
 export const aduioFiles = [
   {
@@ -64,6 +66,11 @@ export const aduioFiles = [
     title: "숨쉬는 나",
     url: breath,
     thumb: breath_thumb,
+  },
+  {
+    title: "Break the window",
+    url: break_window,
+    thumb: break_window_thumb,
   },
   {
     title: "그래도 오기 잘했어요",
