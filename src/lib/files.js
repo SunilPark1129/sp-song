@@ -25,6 +25,7 @@ import after_gone from "../asset/지나고 나서야.wav";
 import refills from "../asset/Refills.wav";
 import break_window from "../asset/Break the window.wav";
 import break_window2 from "../asset/Break the window2.wav";
+import fascinated from "../asset/you are fascinated.wav";
 
 import same_heart_thumb from "../asset/같은 마음이었으면-Thumbnail.jpg";
 import paper_thumb from "../asset/도화지-Thumbnail.jpg";
@@ -51,8 +52,14 @@ import breath_thumb from "../asset/숨쉬는 나-Thumbnail.jpg";
 import after_gone_thumb from "../asset/지나고 나서야-Thumbnail.jpg";
 import refills_thumb from "../asset/refills-Thumbnail.jpg";
 import break_window_thumb from "../asset/Break the window-Thumbnail.jpg";
+import fascinated_thumb from "../asset/you are fascinated-Thumbnail.jpg";
 
 export const aduioFiles = [
+  {
+    title: "지나고 나서야",
+    url: fascinated,
+    thumb: fascinated_thumb,
+  },
   {
     title: "지나고 나서야",
     url: after_gone,
