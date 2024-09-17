@@ -56,7 +56,7 @@ import fascinated_thumb from "../asset/you are fascinated-Thumbnail.jpg";
 
 export const aduioFiles = [
   {
-    title: "지나고 나서야",
+    title: "You are fascinated",
     url: fascinated,
     thumb: fascinated_thumb,
   },
