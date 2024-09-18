@@ -22,6 +22,7 @@ import seens_when from "../asset/언제 부터 였을까.wav";
 import touch_wind from "../asset/다른 이에 닿은 바람.wav";
 import breath from "../asset/숨쉬는 나.wav";
 import after_gone from "../asset/지나고 나서야.wav";
+import after_gone2 from "../asset/지나고 나서야-1.wav";
 import refills from "../asset/Refills.wav";
 import break_window from "../asset/Break the window.wav";
 import break_window2 from "../asset/Break the window2.wav";
@@ -63,6 +64,11 @@ export const aduioFiles = [
   {
     title: "지나고 나서야",
     url: after_gone,
+    thumb: after_gone_thumb,
+  },
+  {
+    title: "지나고 나서야2",
+    url: after_gone2,
     thumb: after_gone_thumb,
   },
   {
