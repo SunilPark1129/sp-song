@@ -27,6 +27,7 @@ import refills from "../asset/Refills.wav";
 import break_window from "../asset/Break the window.wav";
 import break_window2 from "../asset/Break the window2.wav";
 import fascinated from "../asset/you are fascinated.wav";
+import fascinated2 from "../asset/you are fascinated2.wav";
 
 import same_heart_thumb from "../asset/같은 마음이었으면-Thumbnail.jpg";
 import paper_thumb from "../asset/도화지-Thumbnail.jpg";
@@ -59,6 +60,11 @@ export const aduioFiles = [
   {
     title: "You are fascinated",
     url: fascinated,
+    thumb: fascinated_thumb,
+  },
+  {
+    title: "You are fascinated old v.",
+    url: fascinated2,
     thumb: fascinated_thumb,
   },
   {
