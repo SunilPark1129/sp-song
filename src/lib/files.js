@@ -28,7 +28,8 @@ import break_window from "../asset/Break the window.wav";
 import break_window2 from "../asset/Break the window2.wav";
 import fascinated from "../asset/you are fascinated.wav";
 import fascinated2 from "../asset/you are fascinated2.wav";
-import i_hate from "../asset/나 미운 사람 있어.wav";
+import i_hate from "../asset/좋아해서 미워요.wav";
+import gone_ever from "../asset/다시 오지 않을 날들.wav";
 
 import same_heart_thumb from "../asset/같은 마음이었으면-Thumbnail.jpg";
 import paper_thumb from "../asset/도화지-Thumbnail.jpg";
@@ -56,12 +57,19 @@ import after_gone_thumb from "../asset/지나고 나서야-Thumbnail.jpg";
 import refills_thumb from "../asset/refills-Thumbnail.jpg";
 import break_window_thumb from "../asset/Break the window-Thumbnail.jpg";
 import fascinated_thumb from "../asset/you are fascinated-Thumbnail.jpg";
+import i_hate_thumb from "../asset/좋아해서 미워요-Thumbnail.jpg";
+import gone_ever_thumb from "../asset/다시 오지 않을 날들-Thumbnail.jpg";
 
 export const aduioFiles = [
   {
-    title: "나 미운 사람 있어",
+    title: "다시 오지 않을 날들",
+    url: gone_ever,
+    thumb: gone_ever_thumb,
+  },
+  {
+    title: "좋아해서 미워요",
     url: i_hate,
-    thumb: fascinated_thumb,
+    thumb: i_hate_thumb,
   },
   {
     title: "You are fascinated",
